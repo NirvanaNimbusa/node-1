@@ -36,11 +36,11 @@ env:
     - ''
   script: go run mage.go -v GenerateEnvFile
 
-checks:
-  stage: test
-  tags: [go]
-  script:
-    - go run mage.go -v Check
+#checks:
+#  stage: test
+#  tags: [go]
+#  script:
+#    - go run mage.go -v Check
 
 test:
   stage: test
